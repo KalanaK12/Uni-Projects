@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: customer-service
+  #  main:
+  #    allow-circular-references: true
+
+  datasource:
+    url: jdbc:sqlite:backend/customer-service/database/customer.db
+    driver-class-name: org.sqlite.JDBC
+
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect

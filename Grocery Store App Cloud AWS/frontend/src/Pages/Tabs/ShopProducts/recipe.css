@@ -1,0 +1,15 @@
+.heading-recipes {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 68px;
+  color: #171a1fff;
+}
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #9095a0ff;
+  max-width: 500;
+  word-wrap: break-word;
+}

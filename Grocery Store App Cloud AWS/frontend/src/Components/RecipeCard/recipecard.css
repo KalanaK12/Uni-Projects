@@ -1,0 +1,67 @@
+.recipe-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #00bdd6ff;
+}
+
+.recipe-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #171a1fff;
+}
+
+.recipe-date {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #9095a0ff;
+}
+
+.tag {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    font-size: 12px; 
+    font-weight: 400; 
+    line-height: 20px; 
+    opacity: 1; 
+  }
+  /* Tag 1 - Item */
+  .tag .tag-item {
+    height: 28px; 
+    padding-left: 6px; 
+    padding-right: 6px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 14px; 
+  }
+  .tag .tag-item > * {
+    padding-left: 2px; 
+    padding-right: 2px; 
+  }
+  /* Tag item 1 */
+  .tag .tag-item:nth-child(1) {
+    font-size: 12px; 
+    font-weight: 400; 
+    line-height: 20px; 
+    color: #323842FF; /* neutral-700 */
+    background: #F3F4F6FF; /* neutral-200 */
+  }
+  /* Tag item 1 - Pressed */
+  .tag .tag-item:nth-child(1):hover {
+    color: #323842FF; /* neutral-700 */
+    background: #CFD2DAFF; /* neutral-350 */
+  }
+  /* Tag item 1 - Pressed */
+  .tag .tag-item:nth-child(1):hover:active {
+    color: #323842FF; /* neutral-700 */
+    background: #A7ADB7FF; /* neutral-450 */
+  }
+  /* Tag item 1 - Pressed */
+  .tag .tag-item:nth-child(1):disabled {
+    color: #323842FF; /* neutral-700 */
+    background: #F3F4F6FF; /* neutral-200 */
+  }

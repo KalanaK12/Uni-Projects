@@ -1,0 +1,24 @@
+.category-icon{
+
+    width: 60px;
+    height: 60px;
+}
+
+.category-container{
+    /* display: flex; */
+    /* This creates a flex container */
+    align-items: center;
+    text-align: center;
+    font-size: small;
+}
+
+.custom-stack{
+    background-color: rgb(180, 192, 192);
+}
+
+.custom-see-all{
+    background-color: rgb(180, 192, 192);
+    text-align: right;
+    margin-right: 2px;
+    padding-right: 10px;
+}

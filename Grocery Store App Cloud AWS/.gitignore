@@ -1,0 +1,3 @@
+# stop tracking the .idea and .DS_Store files
+.idea
+.DS_Store

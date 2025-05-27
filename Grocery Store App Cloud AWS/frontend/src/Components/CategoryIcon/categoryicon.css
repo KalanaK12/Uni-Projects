@@ -1,0 +1,13 @@
+/* Oval 3 */
+.oval {
+    width: 100px; /* Adjust the width and height to your desired size */
+    height: 100px;
+    background-color: #FAFAFBFF; /* Set the background color to gray */
+    border-radius: 50%; /* Make the div circular with a 50% border-radius */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  

@@ -1,0 +1,92 @@
+.card{
+    font-family: Inter;
+    width: 200px;
+}
+
+.p-img{
+    width: 640px;
+    height: 472px;
+    border-radius: 4px;
+    /* border-m */
+    box-shadow: 0px 4px 9px #171a1f, 0px 0px 2px #171a1f;
+}
+
+.cart-button{
+    display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    width: 221px;
+    height: 35px;
+    background: #EBFDFFFF;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #1D2128FF;
+    border-style: solid;
+    padding: 20px 20px;
+
+}
+
+.cart-button:hover {
+    background: #B0C4DE;
+    cursor: pointer;
+}
+
+.avg-r{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #171A1FFF;
+}
+.total-r{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #9095A0FF;
+}
+
+.ppw{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #171A1FCC;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #00BDD6FF;
+}
+
+.org-price{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #171A1FFF;
+}
+
+.title{
+    height: 4em;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #171A1FFF;
+    text-decoration: none;
+    
+}
+.title:hover {
+    text-decoration: underline;
+}
+
+.discount-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(131, 83, 226);
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(246, 243, 253);
+    padding: 5px 10px;
+    border-radius: 14px;
+}
